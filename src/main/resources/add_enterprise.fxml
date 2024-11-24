@@ -1,0 +1,12 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab11.controller.AddEnterpriseController">
+    <TextField fx:id="nameField" promptText="Enterprise Name" />
+    <TextField fx:id="addressField" promptText="Address" />
+    <TextField fx:id="foundingDateField" promptText="Founding Date (YYYY-MM-DD)" />
+    <TextField fx:id="fundField" promptText="Fund (in millions)" />
+    <TextField fx:id="valueField" promptText="Value (in millions)" />
+    <Button text="Add" onAction="#onAddClick" />
+</VBox>

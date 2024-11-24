@@ -1,0 +1,9 @@
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab11.controller.MainController">
+    <Button text="Add Enterprise" onAction="#onAddEnterpriseClick" layoutX="20" layoutY="20" />
+    <Button text="Search Enterprise" onAction="#onSearchEnterpriseClick" layoutX="20" layoutY="70" />
+    <Button text="Update Enterprise" onAction="#onUpdateEnterpriseClick" layoutX="20" layoutY="120" />
+    <Button text="Delete Enterprise" onAction="#onDeleteEnterpriseClick" layoutX="20" layoutY="170" />
+</AnchorPane>

@@ -1,0 +1,8 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab11.controller.DeleteEnterpriseController">
+    <TextField fx:id="idField" promptText="Enterprise ID" />
+    <Button text="Delete" onAction="#onDeleteClick" />
+</VBox>

@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TableColumn?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab11.controller.SearchEnterpriseController">
+    <TextField fx:id="nameField" promptText="Search by Name" />
+    <Button text="Search" onAction="#onSearchClick" />
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="ID" fx:id="idColumn" />
+            <TableColumn text="Name" fx:id="nameColumn" />
+            <TableColumn text="Address" fx:id="addressColumn" />
+            <TableColumn text="Founding Date" fx:id="foundingDateColumn" />
+            <TableColumn text="Fund" fx:id="fundColumn" />
+            <TableColumn text="Value" fx:id="valueColumn" />
+        </columns>
+    </TableView>
+</VBox>

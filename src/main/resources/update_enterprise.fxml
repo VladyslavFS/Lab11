@@ -1,0 +1,10 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.lab11.controller.UpdateEnterpriseController">
+    <TextField fx:id="idField" promptText="Enterprise ID" />
+    <TextField fx:id="addressField" promptText="New Address" />
+    <TextField fx:id="valueField" promptText="New Value (in millions)" />
+    <Button text="Update" onAction="#onUpdateClick" />
+</VBox>
